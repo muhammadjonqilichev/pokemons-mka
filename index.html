@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+  <section class="movie">
+    <div class="container">
+      <img style="margin-left: 25%;" src="./img/pokemon_logo 1.png" width="610" height="225">
+      <h1 class="movie__title">Pokemons</h1>
+      <form class="form" id="form">
+        <input class="movie__search" placeholder="search..." id="search_movie" type="text" name="seach_movie">
+        <select class="movie__genre" name="select" id="select">
+          <option value="All">All</option>
+        </select>
+        <button class="movie__btn" type="submit">Search</button>
+      </form>
+      
+      <ul class="movie__list">
+        <li class="movie__item">
+          <img class="movie__img" src="http://picsum.photos/150/200" alt="img" width="150" height="200">
+          <h2 class="movie__item-title">Shazam</h2>
+          <time class="movie__list-time" datetime="2020-15-20">2020-15-20</time>
+          <p class=""></p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <script src="./pokemons.js"></script>
+  <script src="./utils.js"></script>
+  <script src="./seacrh.js"></script>
+</body>
+</html>
